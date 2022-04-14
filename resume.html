@@ -4,91 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Резюме</title>
 </head>
 <body>
 
-    <h1> <strong>Филатов Антон</strong></h1>
-    
+    <div class="container">
+        
 
-    <img src="img2.jpeg" width="230" alt="аватар">
-    <h4> <strong>Я такой человек, что если кто‑то считает меня дураком, то – и веду себя перед этими людьми как дурак. Я никогда не чувствовал необходимости что-то доказывать. Если кто-то уже составил обо мне свое неверное мнение, то ради бога, пусть в нем утвердятся. Я буду рад укрепить их в их заблуждении.</strong> 
-         <em>Курт Кобейн.</em>  </h4> 
-    <hr color="silver" size="5" noshade="10">
-    
+        <div class="info">
 
-    <h3>Мои контакты</h3>
- <a href="https://rav042694@gmail.com" target="_blank"> Почта</a>
- |
- <a href="https://vk.com/id33707144" target="_blank"> Вконтакте </a>
- |
- <a href="https://t.me/zonefak" target="_blank"> Telegram </a>
+            <img src="img2.jpeg" alt="аватар" class="avatar">
+        
+            <div class="info-text">
+                
 
-    
-</p>
-
-
-<h3>Мои хобби</h3>
-
-<ol>
-    <li>Сноуборд</li>
-    <li>Велоспорт</li>
-    <li>Путешествия</li>
-    
-</ol>
-
-<h3>Программирование</h3>
-
-<table border="5">
-    <thead>
-        <tr>
-            <th>Дата</th>
-            <th>Шаг</th>
-            <th>Урок</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>30.03.2022</td>
-            <td>HTML</td>
-            <td>Минина В.</td>
-        </tr>
-    </tbody>
-
-</table>
-
-<hr color="silver" size="5" noshade="10">
-<a href="01_text.html"> <em>КЛАН</em> </a>
-<h2>Blackmoor</h2>
-
-<br>
-<img src="img1.jpg" width="110" alt="кошка">
-<h2>Свяжись со мной</h2>
-<form>
+                <h1>Филатов Антон</h1>
+                
+                <h3> <p>Выучился на шахтера,
+                <br> Поработал отельером, <br> Ухожу в IT сферу!
+                </p>  </h3> 
+                <hr color="#eee" size="1" noshade="10">
+            
+                <h4>Мои контакты</h4>
+                <a href="https://rav042694@gmail.com" target="_blank"> Почта</a> |
+                <a href="https://vk.com/id33707144" target="_blank"> Вконтакте </a> |
+                <a href="https://t.me/zonefak" target="_blank"> Telegram </a>
+            </div>
+        
+        </div>
 
 
-    <div>
-        <label for="name">Ваше <strong>имя</strong>:</label>  
-        <input type="text" id="name" placeholder="Введите имя">
-    </div>
-    <div>
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" placeholder="Введите email">
+        <div class="card bg-green">
+            <h3>Мои хобби</h3>
 
-    </div>
+            <ol class="list">
+                <li>Сноуборд</li>
+                <li>Велоспорт</li>
+                <li>Путешествия</li>
+                
+            </ol>
+        </div>
 
-    <div>
+        <div class="card bg-red">
+            <h3>Программирование</h3>
 
-        <label for="massage">Ваше сообщение:</label>
+            <table class="table1">
+                <thead>
+                    <tr>
+                        <th>Начало</th>
+                        <th>Шаг</th>
+                        <th>Завершение</th>
+                        <th>Урок</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>30.03.2022</td>
+                        <td>HTML</td>
+                        <td>03.04.2022</td>
+                        <td>Минина В.</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>04.04.2022</td>
+                        <td>CSS</td>
+                        <td>14.04.2022</td>
+                        <td>Минина В.</td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+        </div>
+
+        <div class="card bg-yellow">
+            <h3>Интересные цитаты</h3>
+
+            <ul class="link-list">
+                <li>
+                    Мне важно мнение только тех людей, которые открыты по жизни для всего нового, могут посмеяться над собой и просто угареть время от времени. Лу.
+                </li>
+                <br>
+                <li>
+                    Большая тайна жизни то, что нет большой тайны. Независимо от вашей цели, вы можете попасть туда, если вы готовы к работе.
+                    Опра Уинфри.
+                </li>
+                <br>
+                <li>
+                    Я такой человек, что если кто‑то считает меня дураком, то – и веду себя перед этими людьми как дурак. Я никогда не чувствовал необходимости что-то доказывать. Если кто-то уже составил обо мне свое неверное мнение, то ради бога, пусть в нем утвердятся. Я буду рад укрепить их в их заблуждении. Курт Кобейн.
+                </li>
+
+                
+            </ul>
+        </div>
+
         <br>
-        <textarea name="massage" id="" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+
+        <hr color="#eee" size="1" noshade="10">
+
+        <br>
+        
+        <img src="img1.jpg" width="290" alt="кошка" class="cat">
+        
+
+        <form action="/" class="form">
+            <h2>Свяжись со мной</h2>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше <strong>имя</strong>:</label>  
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <label for="massage">Ваше сообщение:</label>
+                
+                <textarea name="massage" id="" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <div>
+
+                <input class="btn" type="submit" value="Отправить!">
+            </div>
+        </form>
     </div>
-
-    <div>
-
-        <input type="submit" value="Отправить!">
-    </div>
-</form>
-
 </body>
 </html>

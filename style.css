@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Poiret+One&family=Roboto&display=swap');
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight:  normal;
+    background-image: url(img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color:rgb(147, 175, 176);
+    color: #000000
+}
+
+.background-image {
+    max-width: 100%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+
+}
+
+a:visited {
+    color: #eee;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+
+.avatar {
+    width: 280px;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 7px 7px 10px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.cat {
+    
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+
+.info-text p {
+    font-style:normal;
+    font-weight:lighter;
+    font-size:large;
+    color: #263233;
+    margin: 0;
+}
+
+.info-text h1 {
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.info-text h4 {
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+
+    }
+}
+
+.card {
+    
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+
+.bg-yellow {
+    
+    background: transparent;
+    box-shadow: 7px 7px 10px 7px rgba(0, 0, 0, 0.6);
+  
+}
+
+.bg-red {
+    background: transparent;
+    box-shadow: 7px 7px 10px 7px rgba(0, 0, 0, 0.6);
+
+}
+
+.bg-green {
+    background: transparent;
+    box-shadow: 7px 7px 10px 7px rgba(0, 0, 0, 0.6);
+
+}
+
+.table1 {
+    display: block;
+    overflow-x: auto;
+    max-width: 270px;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    border-spacing: 10px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.btn {
+    background: #111;
+    background:linear-gradient(rgb(4, 114, 120), #000);
+    padding: 15px 20px;
+    color: rgb(23, 248, 248);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #2b3737;
+    margin-bottom: 4px;
+}
+
+/* .link-list {
+    list-style: none;
+    padding: 0;
+} */
+
+.link-list li {
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid #ccc; */
+    padding-bottom: 5px;
+}
+
+.table1 td {
+    padding-bottom: 10px;
+}
+
+.table1 td:nth-child(1), 
+.table1 td:nth-child(3) {
+    color: #2b3737;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: #372d2b;
+
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: rgb(23, 248, 248);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    
+}
+
